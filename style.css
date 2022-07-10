@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+html{
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 110px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.main{
+    width: 350px;
+    background-color: rgba(255, 255, 255,0.6);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(163, 163, 163);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.display{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.5);
+    width: 320px;
+    height: 100px;
+    align-items: center;
+    box-shadow: inset -5px -5px 12px rgb(255, 253, 253),
+                inset 5px 5px 12px rgba(64, 64, 64, 0.16);
+}
+
+.btn1{
+    color: rgb(76, 76, 76);
+    width: 75px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.7);
+    box-shadow: 2px 2px 15px rgb(194, 194, 194);
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+.row{
+    padding-bottom: 10px;
+}
+.keys{
+    margin-bottom: 20px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 10px rgb(133, 133, 133);
+}
+
+button:active{
+    transform: scale(1.05);
+    color: rgb(25, 144, 199);
+}
+.btn2,.btn3,.btn4{
+    color: rgb(71, 71, 71);
+    width: 152px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.7);
+    box-shadow: 2px 2px 10px rgb(207, 207, 207);
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+}
+.btn3{
+    width: 153px;
+    background-color: rgba(94, 235, 242, 0.7);
+}
+.btn4{
+    width: 153px;
+    background-color: rgba(238, 73, 73, 0.7);
+}
+input{
+    width: 290px;
+    margin: 15px;
+    margin-top: 30px;
+    text-align: right;
+    color: black;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 100vm;
+}
